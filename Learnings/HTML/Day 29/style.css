@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+/*    header starts here    */
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*  navbar logo   */
+
+.logo{
+    background-image: url(./amozon\ logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.navbar-logo{
+    height:50px ;
+    width: 100px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/*     navbar location   */
+
+.navbar-location{
+    height: 50px;
+    width: 100px;
+    align-items: center;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+#deliver{
+    font-size: 0.8rem;
+    color: #ccc;
+    margin-left: 22px;
+}
+
+#india{
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 3px;
+}
+
+#location{
+    color: white;
+    margin-left: 2px;
+}
+
+.icon{
+    align-items: center;
+    display: flex;
+}
+
+/*    navbar search    */
+
+
+.navbar-search{
+    display: flex;
+    background-color: orange;
+    height: 40px;
+    width: 580px;
+    border-radius: 7px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.border1{
+    border: none;
+}
+
+.border1:hover{
+    border: 2px solid orange;
+}
+
+.search{
+    background-color:#ccc;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.navbar-search input{
+    width: 100%;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #0f1111;
+}
+
+/*    navbar india    */
+
+.navbar-india{
+    height: 40px;
+    width: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#india{
+    color: #fff;
+}
+
+.border{
+    
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/*    navbar signin    */
+
+.navbar-signin{
+   color: #fff;
+}
+
+.border{
+    
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+span{
+    font-size: 0.8rem;
+}
+
+#sign{
+    font-size: 1rem;
+    font-weight: 780;
+}
+
+/*     navbar returns     */
+
+.navbar-returns{
+   color: #fff;
+}
+
+.border{
+    
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+span{
+    font-size: 0.8rem;
+}
+
+#order{
+    font-size: 1rem;
+    font-weight: 780;
+}
+
+/*      navbar cart     */
+
+.navbar-cart{
+      font-size:1rem ;
+      font-weight: 750;
+      color: white;
+      height: 40px;
+      width: 50px;
+      display: flex;
+}
+
+#cart{
+      color: white;
+      font-size: 25px;
+      
+}
+
+.border{
+    
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/*    navbarlite    */
+
+.navbarlite{
+    height: 40px;
+    background-color: #222f3d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    
+}
+
+.border{
+    
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.navbarlite-other{
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarlite-other p{
+    display: inline;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.border{
+    
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/*   header ends here   */
+
+
+
+/*   hero section start  */
+
+.hero-section{
+    background-image: url("./front\ page.jpg");
+    height: 350px;
+    background-size: cover;
+}
+
+/*   hero shop   */
+
+.hero-shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    border: 2px solid transparent;
+    background-color: #fff;
+    padding: 21px 0px 15px;
+    margin: 15px;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#box{
+    margin-left:1rem ;
+    margin-right: 1rem;
+}
+
+.box-image{
+    height: 250px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+/*    hero section ends   */
+
+
+
+/*    footer start   */
+
+.footer1{
+    height: 50px;
+    background-color: #374753;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.footer2{
+    background-color: #222f3d;
+    color: #fff;
+    font-size: 1.2rem;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin: 40px;
+}
+
+ul a{
+    color: #ddd;
+    display: block;
+    margin: 3px;
+    padding: 4px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.footer3{
+    height: 90px;
+    background-color: #222f3d;
+    color: #fff;
+    border-top: 0.1px solid #fff ;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.logo1{
+    height: 40px;
+    width: 100%;
+}
+
+.area{
+    display: flex;
+    color: #fff;
+    margin: 15px;
+}
+
+#internet{
+    margin: 5px;
+}
+
+.area p{
+    margin: 5px;
+}
+
+.border{
+    border: 2px solid #fff;
+}
+
+.flag{
+    display: flex;
+    color: #fff;
+    margin: 15px;
+}
+
+#india{
+    margin: 5px;
+}
+
+.flag p{
+    margin: 5px;
+}
+
+.border{
+    border: 2px solid #fff;
+}
+
+.footer4{
+    background-color:#0f1111 ;
+    color: #fff;
+    font-size: 1.2rem;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin:20px;
+    
+}
+
+ul a{
+    color: #ddd;
+    display: block;
+    margin: 3px;
+    padding: 4px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.border{
+  border: 0.4px solid #222f3d;  
+}
+
+.footer5{
+    background-color:#0f1111 ;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pages{
+    font-size: 0.8rem;
+    
+}
+
+.pages a{
+    color: white;
+    text-decoration: none;
+}
+
+.copyright{
+     font-size: 0.8rem;
+     padding: 3px;
+}
+
+/*     footer end    */

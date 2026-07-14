@@ -1,0 +1,33 @@
+.box{
+    height: 700px;
+    width: 700px;
+    border: 3px solid goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 100px;
+    width: 200px;
+    border: 3px solid navy;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:auto ;
+    transition: all 1s;
+}
+
+.container:hover{
+    /*transform: scale(2);*/
+    /*transform: rotate(360deg);*/
+    /*transform:skew(45deg);*/
+    /*transform: translate(100px);*/
+    transform: translate(120px 50%);
+}
+
+p{
+    font-size: 10px;
+    font-family: serif;
+}

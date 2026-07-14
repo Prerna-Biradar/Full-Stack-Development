@@ -1,0 +1,27 @@
+p{
+    color:black;
+    background-color: hotpink;
+}
+h1{
+    background-color: cadetblue;
+}
+h1{
+    color: chartreuse;
+}
+h2{
+    background-color: darkkhaki;
+}
+/*article{
+    color: greenyellow;
+}*/
+section{
+    background-color: mediumseagreen;
+}
+#h2{color: aquamarine;}
+#prerana{
+    color: blue;
+}
+.hello{
+    color: chocolate;
+}
+.hi{color: brown;}

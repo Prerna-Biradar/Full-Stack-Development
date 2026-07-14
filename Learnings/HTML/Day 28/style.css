@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 250vh;
+    width: 250wh;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    height: 550px;
+    border: 4px solid blue;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill,minmax(150px , 300px));
+    justify-content: center;
+    grid-template-areas: 
+    "h1 h1 h1 h1 h1 h1"
+    "sb sb c1 c1 c1 c1"
+    "sb sb c1 c1 c1 c1"
+    "sb sb c2 c2 c3 c3"
+    "sb sb c2 c2 c3 c3"
+    "ft ft ft ft ft ft";
+}
+
+.box{
+    border: 2px solid black;
+    background-color: darkorange;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    grid-area:h1 ;
+}
+#box2{
+    grid-area:sb ;
+}
+#box3{
+    grid-area:c1 ;
+}
+#box4{
+    grid-area:c2 ;
+}
+#box5{
+    grid-area:c3;
+}
+#box6{
+    grid-area:ft ;
+}

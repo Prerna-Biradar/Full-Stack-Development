@@ -1,0 +1,22 @@
+.container{
+    background-color: cornsilk;
+    border: 5px solid navy;
+    height: 700px;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box{
+    margin: 20px;
+    padding:20px ;
+}
+
+@media (max-width: 500px) {
+    .container{
+        background-color: deeppink;
+        border: 8px solid navy;
+        display: flex;
+        flex-direction:row-reverse;
+    }
+}

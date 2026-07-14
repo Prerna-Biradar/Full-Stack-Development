@@ -1,0 +1,50 @@
+.box{
+    height: 700px;
+    width: 700px;
+    border: 3px solid goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    height: 200px;
+    width: 200px;
+    border: 3px solid navy;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:auto ;
+    transition-property: height;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+
+.container:hover{
+    height: 50px;
+    border: 6px dotted fuchsia;
+    background-color: cadetblue;
+    width: 10px;
+    
+
+}
+
+p{
+    font-size: 10px;
+    font-family: fantasy;
+    display: flex;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+
+p:hover{
+    font-size: 5px;
+    font-family: sans-serif;
+    color: indigo;
+}

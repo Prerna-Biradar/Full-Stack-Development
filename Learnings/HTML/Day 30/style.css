@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    background-color: aquamarine;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    background-color: darkcyan;
+    color: white;
+    border: 2px solid navy;
+    text-align: center;
+    transition: 2s;
+}
+
+#box1:hover{
+    transform: perspective(500px)rotateX(180deg);
+}
+
+#box2:hover{
+    transform: perspective(100px) rotateY(45deg);
+}
+
+#box3:hover{
+    transform:perspective(500px) rotateZ(50deg);
+}
+
+#box4:hover{
+    transform: translateX(100px);
+}
+
+#box5:hover{
+    transform:translateY(100px) ;
+}
+
+#box6:hover{
+    transform:perspective(500px) translateZ(-200px);
+}
+
+#box10:hover{
+    transform: perspective(500px) translate3d(80px 50px 60px);
+}
+
+#box7:hover{
+    transform: perspective(500px) scaleX(0.5);
+}
+
+#box8:hover{
+    transform: scaleY(0.7);
+}
+
+#box9:hover{
+    transform: perspective(450px) rotateY(30deg);
+}
+
+#box11:hover{
+    transform: perspective(500px) rotate(45deg) scale3d(234);
+}
+
+#box12:hover{
+    transform: perspective(500px) skewX(45deg);
+}
+
+#box13:hover{
+    transform: perspective(500px) skewY(65deg);
+}

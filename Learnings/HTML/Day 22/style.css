@@ -1,0 +1,21 @@
+
+.container{
+    border: 5px solid green;
+    height: 500px;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 500px) {
+    .container{
+        background-color: deeppink;
+        border: 8px solid navy;
+    }
+}
+
+@media (min-width: 3oopx) and (max-width: 600px){
+    .container{
+        color: chartreuse;
+    }
+}
