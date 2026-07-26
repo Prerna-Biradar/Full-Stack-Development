@@ -1,0 +1,170 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#222;
+color:#fff;
+padding:20px;
+text-align:center;
+}
+
+nav{
+margin:15px 0;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin:0 15px;
+}
+
+#search{
+width:300px;
+padding:10px;
+}
+
+#products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:#fff;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:10px;
+}
+
+button{
+margin-top:10px;
+padding:10px 15px;
+background:#007bff;
+color:#fff;
+border:none;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+/* Hero Section */
+.hero{
+    background:linear-gradient(135deg,#007bff,#00bcd4);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+/* Products */
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:15px 0 5px;
+}
+
+.card p{
+    color:#007bff;
+    font-size:20px;
+    font-weight:bold;
+}
+
+button{
+    background:#28a745;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    margin:15px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#28a745;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+}
+
+nav{
+    margin:10px 0;
+}
+
+#search{
+    width:90%;
+}
+
+.hero h2{
+    font-size:28px;
+}
+
+.products{
+    grid-template-columns:1fr;
+}
+
+}
